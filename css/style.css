@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.col {
+    flex-direction: row;
+    width: 250px;
+
+}
+
+.body {
+    display: flex;
+}
+/**************
+HEADER RULES
+*************/
+
+.main_header {
+    background-color: rgb(255, 94, 0);
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    margin-bottom: 50px;
+
+}
+
+
+
+/**************
+MAIN RULES
+*************/
+
+.conteiner {
+    width: 2000px;
+    height: 900px;
+    padding-left: 300px;
+}
+
+.row {
+    border: 3px dashed black;
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 200px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/**************
+CARD RULES
+*************/
+
+section {
+    flex-direction: row;
+    width: 250px;
+    height: 350px;
+    position: relative;
+    
+
+}
+.card_1 {
+    background-image: url('../img/1.webp');
+    background-size: cover;
+}
+
+.card_2 {
+    background-image: url('../img/2.webp');
+    background-size: cover;
+}
+
+.card_3 {
+    background-image: url('../img/3.webp');
+    background-size: cover;
+}
+
+.card_4 {
+    background-image: url('../img/4.webp');
+    background-size: cover;
+}
+
+.card_5 {
+    background-image: url('../img/5.webp');
+    background-size: cover;
+}
+
+.card_6 {
+    background-image: url('../img/6.webp');
+    background-size: cover;
+}
+
+
+/**************
+BOX RULES
+*************/
+
+.box {
+    background-color: red;
+    width: 40px;
+    height: 20px;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    z-index: 2;
+}
+
+.box_green{
+    background-color: green;
+    width: 90px;
+    height: 20px;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+    left: 45px;
+}
+
+.box_green_left{
+    background-color: green;
+    width: 90px;
+    height: 20px;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+}
