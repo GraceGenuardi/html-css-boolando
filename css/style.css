@@ -38,7 +38,7 @@ CONTEINER AND ROW RULES
 *************/
 
 .conteiner {
-    width: 2000px;
+    width: 1000px;
     height: 1000px;
     padding-left: 300px;
 
@@ -70,6 +70,7 @@ section {
     background-image: url('../img/1.webp');
     background-size: cover;
 }
+
 
 .card_2 {
     background-image: url('../img/2.webp');
@@ -168,3 +169,31 @@ FOOTER RULES
     justify-content: space-between;
 
 }
+
+/**********
+BONUS HOVER RULES
+*********/
+.card_1:hover {
+    background-image: url('../img/1b.webp');
+}
+
+.card_2:hover {
+    background-image: url('../img/2b.webp');
+}
+
+.card_3:hover {
+    background-image: url('../img/3b.webp');
+}
+
+.card_4:hover {
+    background-image: url('../img/4b.webp');
+}
+
+.card_5:hover {
+    background-image: url('../img/5b.webp');
+}
+
+.card_6:hover {
+    background-image: url('../img/6b.webp');
+}
+
